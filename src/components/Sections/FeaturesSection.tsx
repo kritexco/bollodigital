@@ -37,19 +37,19 @@ const FeaturesSection = ({ title, slice, item }: IFeaturesSection) => {
       image: CDN + "/images/featured-projects/featured-project-1.svg",
       title: "Data Prospecting",
       description:
-        "This project involves designing creative and visually appealing websites. Our goal is to create web app that not only look great but also provide a fantastic user experience. We use various design elements to make websites stand out, from vibrant colors to user-friendly layouts.",
+        "Generate leads from a multitude of databases filtering to find your target market. Using our databases and web scraping tools we are able to find the most accurate leads that will apply to your sales campaigns",
     },
     {
       image: CDN + "/images/featured-projects/featured-project-2.svg",
       title: "CRM",
       description:
-        "The Complex Dashboard project focuses on building a sophisticated dashboard interface. It is designed to help users access organized and critical data efficiently. Our team has worked on creating a user-friendly interface for businesses to track their performance, display analytics, and make data-driven decisions.",
+        "With Salesforce the number 1 CRM tool we are able to set up a custom pipeline as well as integrate with data prospecting tools. Managing customer relationships will ensure that no leads fall through the cracks and that you are always prepared for any sales situation.",
     },
     {
       image: CDN + "/images/featured-projects/featured-project-3.svg",
       title: "Direct Outreach",
       description:
-        "Our Food App Design project is all about creating stunning mobile app designs for applications related to food and dining. We aim to provide an appetizing visual experience that makes it easy for users to order food, discover new recipes, and explore restaurants in their area.",
+        "Our team of trained sales professionals will reach out to provided leads with language of your choice. All interested leads will be booked into your calendar and we will follow up with them before the meeting ensuring the best conversion rate.",
     },
     {
       image: CDN + "/images/featured-projects/featured-project-4.svg",
