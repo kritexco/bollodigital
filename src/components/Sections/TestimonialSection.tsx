@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-// import Link from "next/link";
+import Link from "next/link";
 
 import { styles } from "@utils/styles";
 import { Container, Row, Col } from "react-bootstrap";
@@ -49,19 +49,19 @@ const TestimonialSection = () => {
             {services.map(({ description, Author, style }, index) => {
               return (
                 <Col md={6} lg={4} key={index} className="mb-5" data-aos="fade-up">
-                  {/* <Link href={to} className="service-box text-center content-block"> */}
-                  <div className={`box-bg ${style.box}`}></div>
-                  <span
-                    className={`icon-container ${style.light}`}
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    {/* <i className={`${icon} ${style.icon}`}></i> */}
-                  </span>
-                  {/* <h5 className="text-center">{title}</h5> */}
-                  <p className="color-p-desc">{description}</p>
-                  <p className="color-p-desc">{Author}</p>
-                  {/* </Link> */}
+                  <Link href="#" className="service-box text-center content-block">
+                    <div className={`box-bg ${style.box}`}></div>
+                    <span
+                      className={`icon-container ${style.light}`}
+                      data-aos="fade-up"
+                      data-aos-delay="200"
+                    >
+                      {/* <i className={`${icon} ${style.icon}`}></i> */}
+                    </span>
+                    {/* <h5 className="text-center">{title}</h5> */}
+                    <p className="color-p-desc">{description}</p>
+                    <p className="color-p-desc">{Author}</p>
+                    </Link>
                 </Col>
               );
             })}
